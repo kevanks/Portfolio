@@ -1,0 +1,14 @@
+/* footer style */
+.footer{
+  background-color: lightgrey;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding: 5px;
+}
