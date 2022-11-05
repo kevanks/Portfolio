@@ -1,5 +1,6 @@
 body {
   background-image: url(https://i.pinimg.com/originals/e8/70/1c/e8701c982aaf5a6f9a93aa17a2cffd90.jpg);
+  background-color: #719beb;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -97,6 +98,7 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-items: flex-end;
 }
 
 a:link {

@@ -1,3 +1,32 @@
+body {
+  background-image: url(https://i.pinimg.com/1200x/c5/1f/a9/c51fa952b6040cbe842740789ac108d7.jpg);
+  background-color: #719beb;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+h1{
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  font-size: 40px;
+}
+
+.topSection, .bottomSection {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.image {
+  max-width: 100px;
+  height: 100px;
+}
+
+
+.images img {
+  object-fit: cover;
+}
+
 
 
 /* footer style */

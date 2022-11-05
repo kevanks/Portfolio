@@ -15,8 +15,8 @@ $(() => {
   const $image3 = $('<img>').attr('src', 'file:///Users/kevinsouza/Pictures/Photos%20Library.photoslibrary/resources/derivatives/6/6A26B518-4900-41A2-BBF8-C7C5B89F85CD_1_105_c.jpeg').appendTo($images);
   const $nextBttn = $('<button>').addClass('next-button').text('>>>').appendTo($carousel);
   const $h2HP = $('<h2>').text('Portfolio').css('text-align', 'center');
-  $('body').prepend($h2HP)
-  $('body').prepend($carousel)
+  $('body').prepend($h2HP);
+  $('body').prepend($carousel);
   $('body').prepend($headerHP);
 
 

@@ -1,3 +1,13 @@
+body {
+  background-image: url(https://i.pinimg.com/736x/1e/72/e1/1e72e177da44eac61f206607a320d927.jpg);
+  background-color: #719beb;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+
 /* footer style */
 .footer{
   background-color: lightblue;
