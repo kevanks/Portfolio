@@ -1,14 +1,29 @@
+
+
 /* footer style */
 .footer{
-  background-color: lightgrey;
+  background-color: lightblue;
   height: 60px;
-  display: flex;
-  flex-direction: row;
+  margin: 0;
 }
 
-button {
+nav {
+  font-family: 'Press Start 2P', cursive;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  padding-top: 20px;
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
-  flex-grow: 1;
-  padding: 5px;
+}
+
+a:link {
+  text-decoration: none;
+}
+a {
+  color: black;
 }

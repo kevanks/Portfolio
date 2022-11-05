@@ -1,13 +1,27 @@
+body {
+  background-image: url(https://i.pinimg.com/originals/e8/70/1c/e8701c982aaf5a6f9a93aa17a2cffd90.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+
+}
+
 
 h1{
+  font-family: 'Press Start 2P', cursive;
   text-align: center;
   font-size: 40px;
+}
+
+h2 {
+  font-family: 'Press Start 2P', cursive;
 }
 
 .header{
   padding-top: 70px;
   height: 80px;
-  display: flex;
+
 }
 
 
@@ -16,52 +30,78 @@ h1{
 
 /* carousel style */
 .carousel-container {
-	width: 50%;
-	display: flex;
-	justify-content: space-evenly;
+	width: 100%;
+  display: flex;
+  justify-content: space-evenly;
 
 }
 .images {
-  width: 80%;
-	background: #fa8d8e;
+  width: 500px;
+  height: 600px;
+	background: lightblue;
 	padding: 10px;
   margin: 25px;
-	border-radius: 10px;
+	border-radius: 5px;
 	box-sizing: border-box;
-	box-shadow: 2px 2px #f2cd99;
-  flex-grow: 1;
+  display: flex;
 }
 .images img{
 	width: 100%;
+  height: 100%;
 	border-radius: 10px;
 	display: none;
 }
+
 .images img:first-of-type{
 	display: block;
 }
-.next-button, .back-button {
+
+.next-button {
 	align-self: center;
-	background: #f2cd99;
-	color: #888;
+	background: lightblue;
+	color: black;
 	padding: 5px;
   margin: 5px;
-	border-radius: 50%;
+	border-radius: 80%;
 	text-align: center;
-	box-shadow: 1px 1px #fa8d8e;
-  flex-grow: 1;
+  display: flex;
+}
+
+.back-button{
+  align-self: center;
+	background: lightblue;
+	color: black;
+	padding: 5px;
+  margin: 5px;
+	border-radius: 80%;
+  text-align: center;
+  display: flex;
 }
 
 /* footer style */
 .footer{
-  background-color: lightgrey;
+  background-color: lightblue;
   height: 60px;
-  display: flex;
-  flex-direction: row;
+  margin: 0;
 }
 
-button {
+nav {
+  font-family: 'Press Start 2P', cursive;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  padding-top: 20px;
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
-  flex-grow: 1;
-  padding: 5px;
+}
+
+a:link {
+  text-decoration: none;
+}
+a {
+  color: black;
 }
