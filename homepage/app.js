@@ -23,12 +23,12 @@ $(() => {
 
 
   // carosel functions
-  let numOfImg = $('.images').children().length -1
+  let numOfImg = $('.images').children().length -1;
+  console.log(numOfImg);
   let currentImgIndex = 0;
   // next button function
   $('.next-button').on('click', () => {
-    $('.images').children().eq(currentImgIndex)
-      .css('display', 'none')
+    $('.images').children().eq(currentImgIndex).css('display', 'none')
 
     if (currentImgIndex < numOfImg) {
       currentImgIndex++;
@@ -40,15 +40,13 @@ $(() => {
   })
   // back button function
   $('.back-button').on('click', () => {
-    $('.images').children().eq(currentImgIndex)
-      .css('display', 'none')
+    $('.images').children().eq(currentImgIndex).css('display', 'none')
     if (currentImgIndex > 0) {
       currentImgIndex--;
     } else {
       currentImgIndex = numOfImg
     }
-    $('.images').children().eq(currentImgIndex)
-      .css('display', 'block')
+    $('.images').children().eq(currentImgIndex).css('display', 'block')
   })
 
 })
