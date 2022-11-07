@@ -10,9 +10,9 @@ $(() => {
   const $carousel = $('<div>').addClass('carousel-container')
   const $backBttn = $('<button>').addClass('back-button').text('<<<').appendTo($carousel);
   const $images = $('<div>').addClass('images').appendTo($carousel);
-  const $image1 = $('<img>').attr('src', 'file:///Users/kevinsouza/Pictures/Photos%20Library.photoslibrary/resources/derivatives/9/9E594933-F9FE-47E9-A7B8-F6A23340FD62_1_105_c.jpeg').appendTo($images);
-  const $image2 = $('<img>').attr('src', 'file:///Users/kevinsouza/Pictures/Photos%20Library.photoslibrary/resources/derivatives/9/99FC5513-684C-4E00-8D70-EFA6E100750D_1_105_c.jpeg').appendTo($images);
-  const $image3 = $('<img>').attr('src', 'file:///Users/kevinsouza/Pictures/Photos%20Library.photoslibrary/resources/derivatives/6/6A26B518-4900-41A2-BBF8-C7C5B89F85CD_1_105_c.jpeg').appendTo($images);
+  const $image1 = $('<img>').attr('src', 'file:///Users/kevinsouza/Downloads/IMG_4157.JPG').appendTo($images);
+  const $image2 = $('<img>').attr('src', 'file:///Users/kevinsouza/Downloads/IMG_4159.JPG').appendTo($images);
+  const $image3 = $('<img>').attr('src', 'file:///Users/kevinsouza/Downloads/IMG_4158.JPG').appendTo($images);
   const $nextBttn = $('<button>').addClass('next-button').text('>>>').appendTo($carousel);
   const $h2HP = $('<h2>').text('Portfolio').css('text-align', 'center');
   $('body').prepend($h2HP);

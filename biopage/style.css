@@ -14,14 +14,55 @@ h1{
   font-size: 40px;
 }
 
+.main-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+
 .topSection, .bottomSection {
   font-family: 'Press Start 2P', cursive;
+  max-width: 700px;
+}
+
+.top-text, .bttm-text {
+  max-width: 950px;
+  margin-left: 30px;
 }
 
 
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-text li {
+  background-color: lightblue;
+  list-style-type: none;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 18px;
+  padding: 10px 10px 10px 10px;
+}
+
+.bttm-text li {
+  background-color: lightblue;
+  list-style-type: none;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 18px;
+  padding: 10px 10px 10px 10px;
+}
 
 
 /* modal */
+
+.openModal {
+  font-family: 'Press Start 2P', cursive;
+  background-color: lightblue;
+  border-radius: 15%;
+
+}
+
 .modal {
   background-color: rgba(255, 255, 255, 0.5);
   position: fixed;
@@ -38,9 +79,6 @@ h1{
   object-fit: fill;
 }
 
-.closeModal {
-  color: white;
-}
 
 /* footer style */
 .footer{
