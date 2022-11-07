@@ -57,7 +57,7 @@ nav {
 }
 ul {
   list-style-type: none;
-  padding-top: 20px;
+  padding-top: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -67,6 +67,11 @@ ul {
 a:link {
   text-decoration: none;
 }
+
 a {
   color: black;
+}
+
+a:hover {
+  color: red;
 }

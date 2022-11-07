@@ -63,7 +63,7 @@ h2 {
 	align-self: center;
 	background: lightblue;
 	color: black;
-	padding: 5px;
+	padding: 10px;
   margin: 5px;
 	border-radius: 80%;
 	text-align: center;
@@ -74,7 +74,7 @@ h2 {
   align-self: center;
 	background: lightblue;
 	color: black;
-	padding: 5px;
+	padding: 10px;
   margin: 5px;
 	border-radius: 80%;
   text-align: center;
@@ -96,7 +96,7 @@ nav {
 }
 ul {
   list-style-type: none;
-  padding-top: 20px;
+  padding-top: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -108,4 +108,8 @@ a:link {
 }
 a {
   color: black;
+}
+
+a:hover {
+  color: red;
 }
