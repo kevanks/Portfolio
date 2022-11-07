@@ -10,9 +10,9 @@ $(() => {
   const $carousel = $('<div>').addClass('carousel-container')
   const $backBttn = $('<button>').addClass('back-button').text('<<<').appendTo($carousel);
   const $images = $('<div>').addClass('images').appendTo($carousel);
-  const $image1 = $('<img>').attr('src', 'file:///Users/kevinsouza/Downloads/IMG_4157.JPG').appendTo($images);
-  const $image2 = $('<img>').attr('src', 'file:///Users/kevinsouza/Downloads/IMG_4159.JPG').appendTo($images);
-  const $image3 = $('<img>').attr('src', 'file:///Users/kevinsouza/Downloads/IMG_4158.JPG').appendTo($images);
+  const $image1 = $('<img>').attr('src', 'IMG_4157.JPG').appendTo($images);
+  const $image2 = $('<img>').attr('src', 'IMG_4159.JPG').appendTo($images);
+  const $image3 = $('<img>').attr('src', 'IMG_4158.JPG').appendTo($images);
   const $nextBttn = $('<button>').addClass('next-button').text('>>>').appendTo($carousel);
   const $h2HP = $('<h2>').text('Portfolio').css('text-align', 'center');
   $('body').prepend($h2HP);

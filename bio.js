@@ -12,10 +12,10 @@ $(() => {
   // first pic that will also be modal and top half of page
   const $topSec = $('<container>').addClass('topSection').appendTo($mainContain);
   const $image1 = $('<div>').addClass('image').appendTo($topSec);
-  const $img1 = $('<img>').attr('src', 'file:///Users/kevinsouza/Downloads/IMG_4134%202.jpg').appendTo($image1);
+  const $img1 = $('<img>').attr('src', 'IMG_4134%202.jpg').appendTo($image1);
   const $bttn1 = $('<button>').addClass('openModal').text('Expand').appendTo($topSec);
   const $modal1 = $('<div>').addClass('modal').css('display', 'none').appendTo($topSec);
-  const $modalImg = $('<img>').addClass('modalImg').css('display', 'none').attr('src', 'file:///Users/kevinsouza/Downloads/IMG_4139.JPG').appendTo($modal1);
+  const $modalImg = $('<img>').addClass('modalImg').css('display', 'none').attr('src', 'IMG_4139.JPG').appendTo($modal1);
   const $modalCap = $('<h3>').text('Young Kevin pictured with family in Brazil').appendTo($modal1);
   const $closebttn = $('<div>').addClass('closeModal').css('display', 'none').html('<a href="#">Close</a>').appendTo($modal1);
   // top text container
@@ -28,10 +28,10 @@ $(() => {
   // sec pic that will be modal and bottom half of page and just bottom section
   const $bttmSec = $('<container>').addClass('bottomSection').appendTo($mainContain);
   const $image2 = $('<div>').addClass('image').appendTo($bttmSec)
-  const $img2 = $('<img>').attr('src', 'file:///Users/kevinsouza/Downloads/IMG_4131.JPG').appendTo($image2);
+  const $img2 = $('<img>').attr('src', 'IMG_4131.JPG').appendTo($image2);
   const $bttn2 = $('<button>').addClass('openModal').text('Expand').appendTo($bttmSec);
   const $modal2 = $('<div>').addClass('modal').css('display', 'none').appendTo($bttmSec);
-  const $modalImg2 = $('<img>').addClass('modalImg').css('display', 'none').attr('src', 'file:///Users/kevinsouza/Downloads/IMG_4130%202.jpg').appendTo($modal2);
+  const $modalImg2 = $('<img>').addClass('modalImg').css('display', 'none').attr('src', 'IMG_4130%202.jpg').appendTo($modal2);
   const $modalCap2 = $('<h3>').text('Kevin pictured with family and friends').appendTo($modal2);
   const $closebttn2 = $('<div>').addClass('closeModal').css('display', 'none').html('<a href="#">Close</a>').appendTo($modal2);
   // text container for botttom
