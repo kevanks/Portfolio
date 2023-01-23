@@ -39,7 +39,7 @@ $(() => {
 
   const $nextBttn = $('<button>').addClass('next-button').text('>').appendTo($resume);
   // button that brings you to my full resume on a pdf
-  const $fullResume = $('<div>').addClass('full-resume').html('<a href="https://docs.google.com/document/d/1gIp2tVqdERVrQOacBsQh0Dcl8OscRE2w/edit#">Full Resume</a>');
+  const $fullResume = $('<div>').addClass('full-resume').html('<a href="https://docs.google.com/document/d/1pRAaCQmnzfTL5yH9c_s8QQDLkPeJ35Kq8MHwZkV3mvw/edit">Full Resume</a>');
   $('body').prepend($fullResume);
   $('body').prepend($resume);
   $('body').prepend($headerRP);

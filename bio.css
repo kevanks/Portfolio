@@ -23,12 +23,12 @@ h1{
 
 .topSection, .bottomSection {
   font-family: 'Press Start 2P', cursive;
-  max-width: 700px;
+  max-width: 1000px;
 }
 
 .top-text, .bttm-text {
-  max-width: 950px;
-  margin-left: 30px;
+  max-width: 1150px;
+  margin: 10px 30px 15px 30px;
 }
 
 
